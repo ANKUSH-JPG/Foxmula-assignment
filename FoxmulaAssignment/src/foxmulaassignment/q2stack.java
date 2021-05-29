@@ -1,30 +1,10 @@
+
+package foxmulaassignment.assignment1;
 import java.util.*;
+import foxmulaassignment.stack.stack; // importing stack for performing stack operations
 
-class stack{
-     public Stack<Integer> s=new Stack<Integer>();
 
-     public void push(int n){
-            this.s.push(n);
-     }
-     
-     public void pop(){
-
-            this.s.pop();
-     }
-
-     public void check_empty(){
-            if(this.s.empty())
-            {
-                System.out.println("Stack is empty");
-            }
-            else
-            {
-                System.out.println("Stack is not empty");
-            }
-     }
-}
-
-public class q2stack{
+public class q2stack {
     public static void main(String []args) {
     
         stack s1=new stack();
