@@ -2,10 +2,8 @@
 package foxmulaassignment.assignment1;
 import javafx.util.*;
 
-import foxmulaassignment.quadrilateral.quadrilateral;
-import foxmulaassignment.quadrilateral.square;
-import foxmulaassignment.quadrilateral.rectangle;
-import foxmulaassignment.quadrilateral.parallelogram;
+import foxmulaassignment.quadrilateral.*;
+
 
 /*
 
@@ -24,5 +22,6 @@ public class q3quadrilateral {
         quadrilateral quad3=new parallelogram(new Pair<Integer,Integer>(-2,-6),new Pair<Integer,Integer>(4,-6),new Pair<Integer,Integer>(2,-3),new Pair<Integer,Integer>(-4,-3),3); 
 
         quad3.get_area();
+       
      }
 }

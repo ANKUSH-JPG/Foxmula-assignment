@@ -46,12 +46,13 @@ public class q2stack {
                          break;
                     default:
                          s2.check_empty();
+                         System.out.println(s1.getSize());
                          break;
                 }
             }
 
-            if(s1.s.size()==s2.s.size())
-                System.out.println("******* both stacks are equal , size= "+s1.s.size()+" ********");
+            if(s1.getSize()==s2.getSize())
+                System.out.println("******* both stacks are equal , size= "+s1.getSize()+" ********");
         }
 
     }

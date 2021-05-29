@@ -11,14 +11,20 @@ public class time{
     private int min;
     private int sec;
 
-    public time(int hour,int min,int sec){
-            this.hour=hour;
-            this.min=min;
-            this.sec=sec;
+    public time(){
+            hour=0;
+            min=0;
+            sec=0;
+    }
+   
+    public void setTime(int hour,int min,int sec){
+        this.hour=hour;
+        this.min=min;
+        this.sec=sec;
     }
 
     public void add(time t){
-        time temp=new time(0,0,0);
+        time temp=new time();
         temp.hour=this.hour+t.hour;
         temp.min=this.min+t.min;
         temp.sec=this.sec+t.sec;
