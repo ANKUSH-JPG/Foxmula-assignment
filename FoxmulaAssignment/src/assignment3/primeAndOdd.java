@@ -1,6 +1,12 @@
 
 package assignment3.primeAndOdd;
 
+class CustomException extends Exception{
+    CustomException(String messege){
+        super(messege);
+    }
+}
+
 public class primeAndOdd {
     private int number;
     
@@ -23,7 +29,7 @@ public class primeAndOdd {
             
             if(check==0){
                 // number is prime and odd
-                throw new Exception("##### Number is invalid #####");
+                throw new CustomException("##### Number is invalid #####");
             }
             else{
                 // number is odd but not prime
